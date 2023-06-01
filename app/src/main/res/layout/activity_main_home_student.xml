@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainHomeStudentActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ما هو تطبيق AutoSchool ؟"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="هو تطبيق للهاتف المحمول يقدم دروسًا تفاعلية حول قواعد الطريق واختبارات التدريب ومعلومات القيادة. يمكن للمستخدمين التعلم بالسرعة التي تناسبهم بفضل الدروس الواضحة والموجزة ، المصحوبة بالرسوم التوضيحية والأمثلة العملية. تقيم الاختبارات العملية معرفة المستخدمين وتزودهم بالنتائج والتفسيرات التفصيلية. يتيح التطبيق أيضًا إمكانية مراجعة الأخطاء التي تم ارتكابها وتقديم نصائح حول السلامة على الطرق بالإضافة إلى معلومات حول الإجراءات الإدارية المتعلقة برخصة القيادة. ."
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ماذا يوفر لك هذا التطبيق ؟"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تعلم مختلف الإشارات المرورية ومفترقات الطرق والأولوية"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="دروس نظرية حول خطوات السياقة"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اختبار مكتسباتك عبر اختبارات سلسة و تفاعلية"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="كل ما يحتاجه السائق من احتياطات السلامة و أساسيات السياقة"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="أصناف رخصة السياقة في الجزائر"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- الفئة أ: "
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:textSize="16dp"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تختص هذه الفئة بالدراجات النارية والدراجات ذات الثلاث عجلات. يسمح لك بقيادة عجلات بمحركات ذات عجلتين من جميع عمليات الإزاحة."
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- الفئة ب: "
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="هذه الفئة مخصصة للمركبات الخفيفة مثل سيارات الركاب. يسمح لك بقيادة المركبات التي لا يتجاوز وزنها الإجمالي للمركبة (PTAC) 3.5 طن"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- الفئة ج+هـ: "
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تختص هذه الفئة بالمركبات الثقيلة ذات المقطورة. يجعل من الممكن قيادة شاحنات يزيد وزنها عن 3.5 طن بمقطورة يزيد وزنها الإجمالي عن 750 كجم. غالبًا ما ترتبط هذه الفئة بالفئة ج لقيادة الشاحنات بدون مقطورة."
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- الفئة د: "
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تختص هذه الفئة بمركبات النقل العام مثل الحافلات والحافلات. يسمح لك بقيادة المركبات التي تحتوي على أكثر من 9 مقاعد (بما في ذلك السائق)."
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_margin="5dp"/>
+
+
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

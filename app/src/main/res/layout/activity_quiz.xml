@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:ignore="UsingOnClickInXml">
+
+    <TextView
+        android:id="@+id/countlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/count_label"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/questionlabel"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/question_label"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@color/violet"
+        android:text="@string/btn_answer"
+        android:layout_marginTop="40dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:onClick="checkAnswer" />
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@color/violet"
+        android:text="@string/btn_answer"
+        android:layout_marginTop="20dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:onClick="checkAnswer" />
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@color/violet"
+        android:text="@string/btn_answer"
+        android:layout_marginTop="20dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:onClick="checkAnswer" />
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@color/violet"
+        android:text="@string/btn_answer"
+        android:layout_marginTop="20dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:onClick="checkAnswer" />
+
+</LinearLayout>

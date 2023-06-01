@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_edittext_black"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:gravity="right">
+            <TextView
+                android:id="@+id/txtIdValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textDirection="rtl"/>
+            <TextView
+                android:id="@+id/txtIdLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="الرقم"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="right">
+            <TextView
+                android:id="@+id/txtFirstNameValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp" />
+            <TextView
+                android:id="@+id/txtFirstNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="الاسم"
+                android:textStyle="bold"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/txtLastNameValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp" />
+            <TextView
+                android:id="@+id/txtLastNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="اللقب"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="right">
+
+
+            <TextView
+                android:id="@+id/txtBirthdateValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textDirection="rtl"/>
+            <TextView
+                android:id="@+id/txtBirthdateLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="تاريخ الميلاد"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="right">
+            <TextView
+                android:id="@+id/txtNationValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp" />
+            <TextView
+                android:id="@+id/txtNationLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="الجنسية"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="right">
+
+
+            <TextView
+                android:id="@+id/txtAddressValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                />
+            <TextView
+                android:id="@+id/txtAddressLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="العنوان"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="right">
+
+
+            <TextView
+                android:id="@+id/txtPhoneNumberValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textDirection="rtl"/>
+            <TextView
+                android:id="@+id/txtPhoneNumberLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="رقم الهاتف"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="right">
+
+
+            <TextView
+                android:id="@+id/txtEmailValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textDirection="rtl"/>
+            <TextView
+                android:id="@+id/txtEmailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="البريد الالكتروني"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="right">
+
+
+            <TextView
+                android:id="@+id/txtFreePaidValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textDirection="rtl"
+                />
+            <TextView
+                android:id="@+id/txtFreePaidLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="المبلغ المدفوع(دج)"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        <Button
+            android:id="@+id/modifyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تعديل المعلومات"
+            android:layout_marginTop="16dp"
+            android:onClick="onModifyStudentClicked"/>
+
+
+    </TableLayout>
+
+
+
+</TableRow>

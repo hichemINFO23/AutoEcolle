@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageQuizActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:ignore="UsingOnClickInXml"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notification"
+            android:layout_marginBottom="32dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/question_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_view"
+            android:textSize="20sp"
+            android:text="What is this?"/>
+
+        <Button
+            android:id="@+id/answer1_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question_text_view"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="Answer 1"/>
+
+        <Button
+            android:id="@+id/answer2_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/answer1_button"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="Answer 2"/>
+
+        <Button
+            android:id="@+id/answer3_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/answer2_button"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="Answer 3"/>
+
+        <Button
+            android:id="@+id/answer4_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/answer3_button"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="Answer 4"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AjoutPaiementActivity"
+    android:gravity="center|top">
+
+    <Spinner
+        android:id="@+id/spinnerStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <EditText
+        android:id="@+id/etPaymentAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="مبلغ الدفع" />
+
+    <Button
+        android:id="@+id/btnAddPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اضافة الدفع"
+        android:background="@color/violet"/>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".PlaqueActivity">
+
+
+
+    <Button
+        android:id="@+id/btnDanger"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="إشارات الخطر والخطر المؤقت"
+        android:onClick="openDangerInterface"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="@drawable/custom_edittext"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btnIndication"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="إشارات الإرشاد ونهاية الإرشاد"
+        android:onClick="openIndicationInterface"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="@drawable/custom_edittext"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btnObligation"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="إشارات الالزام ونهاية الالزام"
+        android:onClick="openObligationInterface"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="@drawable/custom_edittext"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btnInterdiction"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="إشارات المنع ونهاية المنع"
+        android:onClick="openInterdictionInterface"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="@drawable/custom_edittext"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_marginBottom="50dp"/>
+
+</LinearLayout>

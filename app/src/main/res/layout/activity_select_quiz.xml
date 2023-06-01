@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectQuizActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:openDrawer="start">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/custom_edittext">
+
+    <Button
+        android:id="@+id/btnQstRepQuiz"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/qstrep"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="إختبار الأسئلة النظرية"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="@drawable/custom_edittext">
+
+    <Button
+        android:id="@+id/btnPlaqueQuiz"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/stop"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="إختبار إشارات المرور"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp"
+                android:background="@drawable/custom_edittext">
+
+    <Button
+        android:id="@+id/btnIntersectionQuiz"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/intersectionicon"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="اختبار أولويات الطريق" />
+            </LinearLayout>
+</LinearLayout>
+

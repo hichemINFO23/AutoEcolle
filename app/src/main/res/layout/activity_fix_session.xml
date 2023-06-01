@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".FixSessionActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittext"
+        android:orientation="vertical"
+        android:text="تحديد موعد لحصة"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+
+        android:layout_margin="8dp"/>
+
+    <Spinner
+        android:id="@+id/studentSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="اختر الطالب"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="التاريخ"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/timeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الساعة"
+        android:paddingTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/moniteurSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="اختر المدرب"
+        android:paddingTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/placeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="المكان"
+        android:paddingTop="20dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:paddingTop="20dp"
+    >
+    <Button
+        android:id="@+id/fixSessionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تأكيد الحجز"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/violet"/>
+
+    <Button
+        android:id="@+id/sendEmailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="رسالة الكترونية للطالب"
+        android:background="@color/violet"
+        android:layout_marginHorizontal="20dp"/>
+</LinearLayout>
+
+</LinearLayout>
